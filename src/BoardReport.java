@@ -27,7 +27,6 @@ public class BoardReport {
     }
 
     private static void solution(String[] id_list, String[] report, int k) {
-        // key: 신고당한 사람 value : 몇명한테 당했는지
-        Map<String,>
+
     }
 }
