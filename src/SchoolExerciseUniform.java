@@ -27,7 +27,6 @@ public class SchoolExerciseUniform {
 
     private static int solution(int n, int[] lost, int[] reserve) {
         int answer = n - lost.length;
-        System.out.println(answer);
         HashSet<Integer> ko = new HashSet<Integer>();
 
         for(int k : reserve) {
@@ -51,7 +50,6 @@ public class SchoolExerciseUniform {
                 ko.remove(lost[i]+1);
             }
         }
-        System.out.println(answer);
         return answer;
     }
 }
